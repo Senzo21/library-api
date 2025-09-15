@@ -9,9 +9,13 @@ This is a simple RESTful API for managing a library's authors and books. It is b
    npm install
    ```
 
-2. Start the server:
+2. Start the server using ts-node:
    ```bash
-   npm run dev
+   npx ts-node src/index.ts
+   ```
+   Or, for development with automatic restarts:
+   ```bash
+   npx ts-node-dev src/index.ts
    ```
    The server will run on `http://localhost:3000`.
 
